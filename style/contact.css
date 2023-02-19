@@ -1,0 +1,103 @@
+#contact {
+    height: 90vh;
+    background-image: url("images/home.png");
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
+    color: rgb(200,200,200);
+}
+.row{
+    margin: 5vw;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-left h1{
+    font-size: 4vw;
+    margin-bottom: 10vh;
+}
+.contact-left p{
+    font-weight: 600;
+    font-size: 1.75vw;
+    margin-top: 30px;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 8vh;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 2.5vw;
+    display: inline-block;
+    color: rgb(200,200,200);
+    transition: 0.25s;
+}
+
+.social-icons a:hover{
+    color: aqua;
+    transform: translateY(-5px);
+}
+.button{
+    margin-top: 8vh;
+}
+
+.btn{
+    border: none;
+    text-decoration: none;
+    font-size: 1.75vw;
+    margin-right: 15px;
+    font-weight: 600;
+    color: rgb(25,25,25);
+    transition: 0.25s;
+    background-color: rgb(100,100,100);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+
+
+
+.btn:hover{
+    background-color: aqua;
+    color: rgb(25,25,25);
+}
+
+.contact-right form{
+    padding: 30px;
+    width: 100%;
+
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: rgb(100,100,100);
+    padding: 15px;
+    margin: 15px 0;
+    color:rgb(200,200,200);
+    font-size: 1.5vw;
+    border-radius: 10px;
+    color: rgb(25,25,25);
+    font-weight: 600;
+}
+
+form textarea{
+    height: 40vh;
+    margin-bottom: 5vh;
+}

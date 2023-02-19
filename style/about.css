@@ -1,0 +1,36 @@
+#about {
+    height: 90vh;
+    border-radius: 20px;
+    background-image: url("images/home.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin-bottom:5vh;
+}
+
+.about_col1{
+    min-width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.about_col1 img{
+    object-fit: cover;
+    width: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    box-shadow: 0 0 5vh 1vh rgb(100, 100, 100);
+
+}
+.about_col2{
+    margin-right: 20px;
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+    font-size: 1.75vw;
+    line-height: 3vw;
+}
+.about_col2 h1{
+    line-height: 4vw;
+}

@@ -1,0 +1,44 @@
+#skills{
+    height: 90vh;
+    background-image: url("images/home.png");
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
+    margin-bottom: 5vh;
+}
+
+#skills h1{
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+    font-size: 4vw;
+    text-align: center;
+    padding: 5vh;
+
+}
+
+.icongrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5vh;
+}
+
+.icons{
+    text-align: center;
+}
+
+.logo{
+    width: 10vw;
+    filter: grayscale(100%);
+    transition: 2s;
+}
+.logo:hover{
+    filter: grayscale(0);
+    margin-top: -1vw;
+    transform: rotate(360deg);
+}
+
+.icons figcaption{
+    color: rgb(200,200,200);
+    font-weight: 600;
+}

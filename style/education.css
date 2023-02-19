@@ -1,0 +1,45 @@
+#education {
+    height: 90vh;
+    background-image: url("images/home.png");
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
+    margin-bottom: 5vh;
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+    font-size: 1.75vw;
+
+}
+
+#education h1{
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+    font-size: 4vw;
+    text-align: center;
+    padding: 5vh;
+}
+
+.edgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.placegrid{
+    text-align: center;
+}
+
+.place {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: grayscale(100%);
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
+    transition: 0.25s;
+}
+.place:hover{
+    margin-top: -1vw;
+    filter: grayscale(0%);
+}
+
