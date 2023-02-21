@@ -3,9 +3,9 @@ body {
     padding: 5vh;
     font-family: sans-serif;
     background-color: rgb(100, 100, 100);
-    box-shadow: 0 0 5vh 1vh rgb(0,0,0) inset;
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0) inset;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }

@@ -5,11 +5,11 @@
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
-    color: rgb(200,200,200);
+    color: rgb(200, 200, 200);
     margin-bottom: 5vh;
 }
 
-#hobbies h1{
+#hobbies h1 {
     color: rgb(200, 200, 200);
     font-weight: 600;
     font-size: 4vw;
@@ -18,11 +18,11 @@
 }
 
 
-.hob1{
+.hob1 {
     height: 20vh;
     width: auto;
     background-color: rgb(100, 100, 100);
-    margin:3vh;
+    margin: 3vh;
     margin-left: 8vw;
     margin-right: 8vw;
     border-radius: 20px;
@@ -33,11 +33,11 @@
     transition: 0.25s;
 }
 
-.hob-left{
+.hob-left {
     flex-basis: 25vh;
 }
 
-.hob-right{
+.hob-right {
     padding-top: 3vh;
     padding-left: 2vw;
     padding-right: 2vw;
@@ -47,16 +47,15 @@
 
 }
 
-.hob1:hover{
+.hob1:hover {
     opacity: 1;
     filter: grayscale(0);
     transform: scaleX(1.02);
 }
 
-.hob1 img{
+.hob1 img {
     height: 20vh;
     width: 100%;
     border-radius: 20px 0 0 20px;
     opacity: 1;
 }
-
