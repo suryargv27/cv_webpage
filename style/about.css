@@ -22,7 +22,11 @@
     aspect-ratio: 1/1;
     border-radius: 20px;
     box-shadow: 0 0 5vh 1vh rgb(100, 100, 100);
+    transition: 1s;
+}
 
+.about_col1 img:hover{
+    transform: rotateY(180deg);
 }
 .about_col2{
     margin-right: 20px;

@@ -1,0 +1,62 @@
+#hobbies {
+    height: 90vh;
+    background-image: url("images/home.png");
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
+    color: rgb(200,200,200);
+    margin-bottom: 5vh;
+}
+
+#hobbies h1{
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+    font-size: 4vw;
+    text-align: center;
+    padding: 2vh;
+}
+
+
+.hob1{
+    height: 20vh;
+    width: auto;
+    background-color: rgb(100, 100, 100);
+    margin:3vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    border-radius: 20px;
+    display: flex;
+    opacity: 0.7;
+    filter: grayscale(100%);
+    box-shadow: 0 0 5vh 1vh rgb(0, 0, 0);
+    transition: 0.25s;
+}
+
+.hob-left{
+    flex-basis: 25vh;
+}
+
+.hob-right{
+    padding-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.75vw;
+    flex-basis: 70vw;
+    font-weight: 600;
+
+}
+
+.hob1:hover{
+    opacity: 1;
+    filter: grayscale(0);
+    transform: scaleX(1.02);
+}
+
+.hob1 img{
+    height: 20vh;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    opacity: 1;
+}
+
