@@ -57,6 +57,3 @@ This is a personal CV webpage built using **HTML, CSS, and JavaScript**. The web
 ## License
 This project is open-source and available under the MIT License.
 
-## Author
-[Surya Raghav](https://github.com/your-username)
-
